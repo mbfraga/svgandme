@@ -9,5 +9,14 @@
 // As such, it won't pass any conformance test, but it's likely
 // to render any SVG file found in the wild, and certainly those
 // constructed from scratch by typical developers.
-
-#include "../include/svgandme/svg.h"
+//
+#include "fonthandler.h"
+#include "irendersvg.h"
+#include "svgattributes.h"
+#include "svgcolors.h"
+#include "svgcss.h"
+#include "svgdocument.h"
+#include "svgfilter.h"
+#include "svgshapes.h"
+#include "svgstructuretypes.h"
+#include "viewport.h"
